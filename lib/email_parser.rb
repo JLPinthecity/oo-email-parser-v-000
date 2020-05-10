@@ -15,8 +15,7 @@ def initialize(emails)
 end
 
 def parse
-  @emails.split(", ")
-  binding.pry
+  @emails.split(", ").uniq
 end
 
 end
